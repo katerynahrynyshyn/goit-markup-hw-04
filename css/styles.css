@@ -375,8 +375,12 @@ section{
     background-color: #31D0AA;
 }
 
+.team-member-soc-link:focus{
+    background-color: #31D0AA;
+}
+
 .soc-icon {
-   fill:#ffffff;
+   fill:#f4f4fd;
 }
 /*------------------------------------ */
 /*-----------------OUR PORTFOLIO------------------- */
