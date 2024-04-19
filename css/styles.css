@@ -102,7 +102,6 @@ section{
 
 .studio::after {
     content: '';
-    display: flex;
     background-color: #404bbf;
     border-radius: 2px;
     width: 100%;
@@ -371,13 +370,11 @@ section{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-member-soc-link:hover{
+.team-member-soc-link:hover, :focus{
     background-color: #31D0AA;
 }
 
-.team-member-soc-link:focus{
-    background-color: #31D0AA;
-}
+
 
 .soc-icon {
    fill:#f4f4fd;
